@@ -12,6 +12,11 @@ namespace test
         {
 
             Console.WriteLine("hoi");
+            Console.WriteLine();
+            Console.WriteLine("wat is je naam? ");
+            string naam = Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine("Aju "+naam);
             Console.ReadLine();
         }
     }
